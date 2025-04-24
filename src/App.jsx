@@ -1,13 +1,21 @@
-import { useState } from "react"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
+import React from "react"
+import SearchBar from "./components/SearchBar"
 import "./App.css"
-import CardGit from "./components/cardgit/Card"
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <CardGit />
+  return (
+    <main className="app-container">
+      <section className="bgSection">
+        <div className="textHeader">
+          <img src="/public/github.svg" alt="" />
+          <span>Perfil</span>
+          <img src="/public/githubLogo.svg" alt="" />
+        </div>
+        <SearchBar />
+      </section>
+      
+    </main>
+  )
 }
 
 export default App
