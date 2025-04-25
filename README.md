@@ -30,6 +30,10 @@ Uma aplicação React que permite buscar perfis do GitHub e exibir informações
 - Node.js instalado
 - NPM ou Yarn
 
+## 📷 Preview
+
+![Demonstração do Formulário](./public/demo.gif)
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
